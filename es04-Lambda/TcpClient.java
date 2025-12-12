@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class TcpClient {
     private static final String HOST = "localhost";
-    private static final int PORT = 8765;
+    private static final int PORT = 8080;
     
     public static void main(String[] args) {
         try (Socket socket = new Socket(HOST, PORT);  // 3-way handshake
